@@ -1,0 +1,21 @@
+<style media="screen">
+  html {
+    background: url(<%= @country.picture_url %>) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .primary-text {
+    font-size: 35px;
+    color: burlywood;
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    margin-left: -263px;
+  }
+</style>
+<h class="primary-text">Drink up! It is 5 oclock in <%= @country.name %> after all.</h>
+
+<h5>
+</h5>
