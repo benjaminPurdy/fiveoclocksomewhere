@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="767310275">
+  <component name="DataSourceManagerImpl" format="xml" hash="827318647">
     <data-source source="LOCAL" name="SQLite - five-oclock-somewhere" uuid="5f770e9c-3a2e-4ed7-b270-0ba8e753316d">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/development.sqlite3</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="PostgreSQL - d25t80grmr5msk@ec2-54-83-61-45.compute-1.amazonaws.com" uuid="5c90de29-d9d3-4113-941f-a6237bcf66e3">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://ec2-54-83-61-45.compute-1.amazonaws.com:5432/d25t80grmr5msk</jdbc-url>
       <libraries />
     </data-source>
   </component>

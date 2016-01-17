@@ -4,5 +4,10 @@
     <data-source name="SQLite - five-oclock-somewhere" uuid="5f770e9c-3a2e-4ed7-b270-0ba8e753316d">
       <secret-storage>master_key</secret-storage>
     </data-source>
+    <data-source name="PostgreSQL - d25t80grmr5msk@ec2-54-83-61-45.compute-1.amazonaws.com" uuid="5c90de29-d9d3-4113-941f-a6237bcf66e3">
+      <secret-storage>master_key</secret-storage>
+      <first-sync>true</first-sync>
+      <user-name>ktaelljedbaajc</user-name>
+    </data-source>
   </component>
 </project>

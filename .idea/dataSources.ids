@@ -41,4 +41,7 @@
       <column name="seq" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
     </table>
   </data-source>
+  <data-source name="PostgreSQL - d25t80grmr5msk@ec2-54-83-61-45.compute-1.amazonaws.com" uuid="5c90de29-d9d3-4113-941f-a6237bcf66e3">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
 </component>
