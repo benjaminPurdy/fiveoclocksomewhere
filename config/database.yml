@@ -20,6 +20,13 @@ test:
   <<: *default
   database: db/test.sqlite3
 
+#production:
+#  <<: *default
+#  database: db/production.sqlite3
+
 production:
-  <<: *default
-  database: db/production.sqlite3
+  adapter: postgresql
+  host: ec2-54-83-61-45.compute-1.amazonaws.com
+  username: cavpgabjaqtvti
+  password: e0hrIPQq95qxV-_grSlNEgy6Lm
+  database: d5turhsjtjb95f
