@@ -94,10 +94,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="schema.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="schema.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/schema.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.54371">
+            <state vertical-scroll-proportion="0.0">
               <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
               <folding />
             </state>
@@ -124,11 +124,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.8955224">
+              <caret line="41" column="2" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -165,8 +165,8 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/home_page/show.erb" />
         <option value="$PROJECT_DIR$/app/controllers/home_page_controller.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/database.yml" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -383,7 +383,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../social_compromise" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="gem&#9;FILE&#9;file:///Users/benjaminpurdy/Desktop/projects/five-oclock-somewhere/Gemfile&#10;Gemfil&#9;FILE&#9;file:///Users/benjaminpurdy/Desktop/projects/five-oclock-somewhere/Gemfile&#10;database&#9;FILE&#9;file:///Users/benjaminpurdy/Desktop/projects/five-oclock-somewhere/config/database.yml&#10;databass&#9;null&#9;null&#10;home&#9;FILE&#9;file:///Users/benjaminpurdy/Desktop/projects/five-oclock-somewhere/app/controllers/home_page_controller.rb&#10;rou&#9;FILE&#9;file:///Users/benjaminpurdy/Desktop/projects/five-oclock-somewhere/config/routes.rb&#10;create&#9;FILE&#9;file:///Users/benjaminpurdy/Desktop/projects/five-oclock-somewhere/db/migrate/20151101041924_create_countries.rb" />
+    <property name="SearchEverywhereHistoryKey" value="Gem&#9;FILE&#9;file:///Users/benjaminpurdy/Desktop/projects/five-oclock-somewhere/Gemfile&#10;gem&#9;FILE&#9;file:///Users/benjaminpurdy/Desktop/projects/five-oclock-somewhere/Gemfile&#10;Gemfil&#9;FILE&#9;file:///Users/benjaminpurdy/Desktop/projects/five-oclock-somewhere/Gemfile&#10;database&#9;FILE&#9;file:///Users/benjaminpurdy/Desktop/projects/five-oclock-somewhere/config/database.yml&#10;databass&#9;null&#9;null&#10;home&#9;FILE&#9;file:///Users/benjaminpurdy/Desktop/projects/five-oclock-somewhere/app/controllers/home_page_controller.rb&#10;rou&#9;FILE&#9;file:///Users/benjaminpurdy/Desktop/projects/five-oclock-somewhere/config/routes.rb&#10;create&#9;FILE&#9;file:///Users/benjaminpurdy/Desktop/projects/five-oclock-somewhere/db/migrate/20151101041924_create_countries.rb" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="dynamic.classpath" value="false" />
@@ -538,12 +538,12 @@
       <workItem from="1452995712922" duration="1405000" />
       <workItem from="1452998812185" duration="1319000" />
       <workItem from="1453001036668" duration="1524000" />
-      <workItem from="1453002925110" duration="994000" />
+      <workItem from="1453002925110" duration="1100000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31377000" />
+    <option name="totallyTimeSpent" value="31483000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3" y="23" width="1400" height="833" extended-state="0" />
@@ -930,26 +930,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5c90de29-d9d3-4113-941f-a6237bcf66e3/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
           <folding />
         </state>
       </provider>
@@ -964,8 +948,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54371">
+        <state vertical-scroll-proportion="0.0">
           <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8955224">
+          <caret line="41" column="2" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
           <folding />
         </state>
       </provider>
