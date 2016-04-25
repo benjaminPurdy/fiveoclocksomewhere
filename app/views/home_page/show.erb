@@ -15,7 +15,11 @@
     margin-left: -263px;
   }
 </style>
-<h class="primary-text">Drink up! It is 5 oclock in <%= @country.name %> after all.</h>
+<h class="primary-text">Drink up! It is 5 oclock in <%=@country.name %> after all.</h>
+
+<p>Might we suggest the <%=@drink_recommendation%> </p>
+
+<p>*Ingredience <%= @drink_recommendation.ingredient%> <p>
 
 <h5>
 </h5>
