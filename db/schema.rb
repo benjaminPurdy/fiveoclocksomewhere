@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160425173700) do
+ActiveRecord::Schema.define(version: 20160425173900) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -26,21 +26,16 @@ ActiveRecord::Schema.define(version: 20160425173700) do
   end
 
   create_table "drink_country_mappings", force: :cascade do |t|
-    t.integer  "country_id"
-    t.integer  "drink_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.integer "country_id"
+    t.integer "drink_id"
   end
 
   add_index "drink_country_mappings", ["country_id", "drink_id"], name: "index_drink_country_mappings_on_country_id_and_drink_id", unique: true, using: :btree
   add_index "drink_country_mappings", ["drink_id", "country_id"], name: "index_drink_country_mappings_on_drink_id_and_country_id", unique: true, using: :btree
 
   create_table "drinks", force: :cascade do |t|
-    t.string   "name"
-    t.string   "image_url"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.string   "ingredient"
+    t.string "name"
+    t.string "ingredient"
   end
 
 end

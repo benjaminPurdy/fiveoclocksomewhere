@@ -9,7 +9,7 @@ class HomePageController < ApplicationController
 
     @drink_recommendation = @country.drinks.sample
     if (@drink_recommendation.nil? || @drink_recommendation.empty)
-      @drink_recommendation = Drink.sample
+      @drink_recommendation = Drink.offset(rand(Drink.count)).first
     end
   end
 
