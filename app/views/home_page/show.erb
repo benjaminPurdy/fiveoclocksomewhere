@@ -1,25 +1,25 @@
 <style media="screen">
-  html {
-    background: url(<%= @country.picture_url %>) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-  .primary-text {
-    font-size: 35px;
-    color: burlywood;
+  .center{
+    width: 800px;
     top: 50%;
-    left: 50%;
-    position: fixed;
-    margin-left: -263px;
+    margin-left: -400px; /* margin is -0.5 * dimension */
+
+  }
+  .below-center{
+    width: 400px;
+    top: 60%;
+    margin-left: -200px; /* margin is -0.5 * dimension */
+  }
+  .ingredients{
+    width: 600px;
+    top: 80%;
+    margin-left: -300px; /* margin is -0.5 * dimension */
   }
 </style>
-<h class="primary-text">Drink up! It is 5 oclock in <%=@country.name %> after all.</h>
+<h1 class="font-styles center">Drink up! It is 5 oclock in <%=@country.name %> after all.</h1>
 
-<p>Might we suggest the <%=@drink_recommendation%> </p>
+<p class="font-styles below-center">Might we suggest the <%=@drink_recommendation.name%> </p>
+<% unless @drink_recommendation.ingredient.nil? || @drink_recommendation.ingredient.empty? %>
+    <p class="font-styles ingredients">*Ingredients <%= @drink_recommendation.ingredient%> <p>
+<% end %>
 
-<p>*Ingredience <%= @drink_recommendation.ingredient%> <p>
-
-<h5>
-</h5>

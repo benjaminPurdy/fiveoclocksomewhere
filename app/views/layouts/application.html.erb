@@ -1,5 +1,29 @@
 <!DOCTYPE html>
 <html>
+<style media="screen">
+  html {
+    height: 100%;
+  }
+  body {
+    position:absolute; top:0; bottom:0; right:0; left:0; margin: 0px;
+  }
+  .image_div {
+    background: url(<%= @country.picture_url %>) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: .4;
+    position:absolute; top:0; bottom:0; right:0; left:0; margin: 0px;
+  }
+  .font-styles {
+      color: #606470;
+      position: absolute;
+      height: 50px;
+      margin-top: -25px;
+      left: 50%;
+  }
+</style>
 <head>
   <title>FiveOclockSomewhere</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
@@ -7,9 +31,10 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<div class="image_div">
-
+<div class="image_div"></div>
+<div class="content">
 <%= yield %>
+</div>
 
 </div>
 </body>

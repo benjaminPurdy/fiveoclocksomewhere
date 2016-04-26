@@ -1,11 +1,12 @@
 Rails.application.routes.draw do
   get '/home', to: 'home_page#show', as: 'home'
+  get '/', to: 'home_page#show'
   post '/home/:offset', to: 'home_page#get_countries'
+  post '/apis/update_timezones', to: 'apis#update_timezones'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
